@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Curvas de luz}{3}{0}{1}
+\beamer@sectionintoc {2}{El problema de aprendizaje}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Caracter\IeC {\'\i }sticas Escogidas}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Aprendizaje supervisado}{15}{0}{2}
+\beamer@subsectionintoc {2}{3}{Clasificador de Bayes}{16}{0}{2}
+\beamer@subsectionintoc {2}{4}{Metodolog\IeC {\'\i }a de Aprendizaje}{17}{0}{2}
+\beamer@subsectionintoc {2}{5}{Clasificadores y Resultados}{19}{0}{2}
