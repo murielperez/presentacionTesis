@@ -54,14 +54,14 @@
     \centering
     \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{./img/OGLE-LMC-CEP-0100_1.png}
-      \caption{Una Cefeida}
+      \caption{Cefeida}
       \label{fig:gull}
     \end{subfigure}%
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{./img/OGLE-LMC-DSCT-0010_1.png}
-      \caption{Una $\delta$-Scuti}
+      \caption{$\delta$-Scuti}
       \label{fig:tiger}
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
@@ -73,13 +73,62 @@
 
 \begin{frame}
   \frametitle{Curvas de luz}
-  Con avances en instrumenación hay disponibles gran cantidad de curvas de luz. Para que estas bases de datos sean realmente útiles es necesario clasificarlas. 
+  Con avances en instrumenación hay disponibles gran cantidad de curvas de luz. Existen proyectos como:
   \begin{itemize}
   \item Kepler Mission, NASA
   \item VISTA Variables in the Via Lactea Survey (VVV), ESO
   \item Panoramic Survey Telescope \& Rapid Response System (PANSTARRS), Universidad de Hawaii
   \end{itemize}
-  Dada la cantidad de datos (del orden de $10^9$ curvas de luz) es necesario un sistema de clasificación automática.
+  Que obtendrán enetre resultados del orden de $10^9$ curvas de luz. Es necesario un sistema de clasificación automática.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Datos}
+  
+  \begin{table}
+    \centering  
+    \resizebox{0.6\textwidth}{!} {
+      \begin{tabular}{rrr}
+        \hline
+        \hline
+        Tipo de variabilidad y origen & \shortstack{Número \\de Objetos} & Total \\
+        \hline
+        \hline 
+        RR Lyrae - GB\cite{soszynski_optical_2011-2} & 16836& \\
+        RR Lyrae - SMC \cite{soszynski_optical_2010}& 2475&  44217\\
+        RR Lyrae - LMC \cite{soszynski_optical_2009-1}& 24906& \\
+        \hline
+        Cefeidas - GB \cite{soszynski_optical_2011}& 32 & \\%El título del paper es classical and type2 cepheids
+        Cefeidas - SMC \cite{soszynski_optical_2010-2}& 4630 & 8004\\
+        Cefeidas - LMC \cite{soszynski_optical_2008-1}& 3361 & \\
+        \hline
+        Variables de Largo Periodo - GB \cite{soszynski_optical_2013-1}& 232406 & \\
+        Variables de Largo Periodo - SMC \cite{soszynski_optical_2011-1}& 19384 & 343782\\
+        Variables de Largo Periodo -  LMC\cite{soszynski_optical_2009}& 91995 & \\
+        \hline
+        Binarias Eclipsantes - SMC \cite{pawlak_eclipsing_2013}& 6138 & 32259\\
+        Binarias Eclipsantes - LMC \cite{graczyk_optical_2011}& 26121 & \\
+        \hline
+        $\delta$-Scuti - SMC\cite{poleski_optical_2010} & 2786 & 2788\\
+        \hline
+        Cefeidas Tipo II - GB \cite{soszynski_optical_2013}& 335 & \\
+        Cefeidas Tipo II - LMC \cite{soszynski_optical_2010-1}& 43 & 603\\
+        Cefeidas Tiplo II - LMC \cite{soszynski_optical_2008}& 197 & \\
+        \hline
+        Cadidatas a Be -  Vía Láctea  & 475 & 475\\
+        \hline
+        \hline 
+      \end{tabular}
+    } 
+    \caption{Conjunto de datos utilizados. GB hace referencia al Bulbo Galáctico; LMC, a la Pequeña Nube de Magallanes y LMC, a la Gran Nube de Magallanes. }
+    \label{cuadro:datosUsados}
+  \end{table}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tipos de Variabilidad}
+  En esta diapositiva va una curva de luz de cada tipo.
 \end{frame}
 
 
@@ -98,11 +147,31 @@
 \end{frame}
 
 \begin{frame}
-  Debido a que en algunas curvas exiaten puntos atípicos, es necesario utilizar medidas robustas. Estas medidas están típicamente basadas en cuantiles de la distribución de las magniudes. 
+  Debido a que en algunas curvas existen puntos atípicos, es necesario utilizar medidas robustas. Estas medidas están típicamente basadas en cuantiles de la distribución de las magniudes. 
   Aquí va una curva de luz con un punto atípico
 \end{frame}
 
 \subsection{Características Escogidas}
+\begin{frame}
+\frametitle{Caracteristicas escogidas}
+Las medidas escogidas debían ser robustas ante la presencia de datos atípicos.
+\begin{table}
+  \centering
+  \begin{tabular}{ll}
+    \hline
+    Variables de localización & Media \\
+    \hline
+    Variables de escala & Rango Intercuartiles (IQR) \\
+    & Desviación Absoluta Mediana (MAD) \\
+    Medidas de Sesgo & \textit{Medcouple} \\
+    & Medidas de peso de colas \\
+    Medidas de forma & Entropía diferencial \\
+    & Valores Abbe \\
+  \end{tabular}
+  \caption{Varriables escogidas}
+\end{table}
+
+\end{frame}
 
 \begin{frame}
   \frametitle{Parámetros de Escala}
@@ -144,7 +213,7 @@
   \end{equation}
   con
   \begin{equation}
-    h(x_i,x_j) = \frac{(x_{(j)}-Q_{0.5})-(Q_{0.5}-x_{(i)})}{x_{(j)}-x_{(i)}}
+    h_1(x_i,x_j) = \frac{(x_{(j)}-Q_{0.5})-(Q_{0.5}-x_{(i)})}{x_{(j)}-x_{(i)}}
   \end{equation}
 
 \end{frame}
@@ -200,59 +269,15 @@ El problema: Encontrar una función $g:\mathbb{R}^n\to J  $ que se equivoque lo 
   \frametitle{Metodología de aprendizaje}
   \begin{itemize}
   \item Utilizamos un \textbf{algorítmo de aprendizaje} para escoger una regla de clasificación de un \textbf{conjunto de hipótesis}.
-  \item Estimamos el error de clasificación usando \textbf{validación cruzada} de k iteraciones.
+  \item Estimamos el error de clasificación usando \textbf{validación cruzada} de 10 iteraciones.
   \end{itemize}
 \end{frame}
 
 
-\begin{frame}
-\frametitle{Datos}
-
-\begin{table}
-  \centering  
-  \resizebox{0.6\textwidth}{!} {
-    \begin{tabular}{rr}
-      \hline
-      \hline
-      Tipo de variabilidad y origen & \shortstack{Número \\de Objetos}\\
-      \hline
-      \hline 
-      RR Lyrae - BG\cite{soszynski_optical_2011-2} & 16836\\
-      RR Lyrae - PNM \cite{soszynski_optical_2010}& 2475\\
-      RR Lyrae - GNM \cite{soszynski_optical_2009-1}& 24906\\
-      \hline
-      Cefeidas - BG \cite{soszynski_optical_2011}& 32\\%El título del paper es classical and type2 cepheids
-      Cefeidas - PNM \cite{soszynski_optical_2010-2}& 4630\\
-      Cefeidas - GNM \cite{soszynski_optical_2008-1}& 3361\\
-      \hline
-      Variables de Largo Periodo - BG \cite{soszynski_optical_2013-1}& 232406\\
-      Variables de Largo Periodo - PNM \cite{soszynski_optical_2011-1}& 19384\\
-      Variables de Largo Periodo - GNM \cite{soszynski_optical_2009}& 91995\\
-      \hline
-      Sistema Binario Eclipsante - PNM \cite{pawlak_eclipsing_2013}& 6138\\
-      Sistema Binario Eclipsante - GNM \cite{graczyk_optical_2011}& 26121\\
-      \hline
-      $\delta$-Scuti - Nube Mayor de Magallanes\cite{poleski_optical_2010} & 2786\\
-      \hline
-      Cefeidas Tipo II - BG \cite{soszynski_optical_2013}& 335\\
-      Cefeidas Tipo II - PNM \cite{soszynski_optical_2010-1}& 43\\
-      Cefeidas Tiplo II - GNM \cite{soszynski_optical_2008}& 197\\
-      \hline
-      Cadidata a Be -  Vía Láctea  & 475\\
-      \hline
-      \hline 
-    \end{tabular}
-  } 
-  \caption{Conjunto de datos utilizados. BG hace referencia al Bulbo Galáctico; PNM, a la Pequeña Nube de Magallanes y GNM, a la Gran Nube de Magallanes. }
-  \label{cuadro:datosUsados}
-\end{table}
-
-\end{frame}
-
 \subsection{Clasificadores y Resultados}
 \begin{frame}%k vecinos más cercanos
   \frametitle{k Vecinos Más Cercanos}
-A un punto a a clasificar se la asigna la clase a la cual pertenece la mayoría entre sus k vecinos más cercanos. Se sabe que este método es consistente, es decir, que tiende al clasificador de Bayes cuando el tamaño de la muestra tiende a infinito. Existe una implementación abierta en el paquete FNN para R.
+A un punto a clasificar se la asigna la clase a la cual pertenece la mayoría entre sus k vecinos más cercanos. Se sabe que este método es consistente, es decir, que tiende al clasificador de Bayes cuando el tamaño de la muestra tiende a infinito. Existe una implementación abierta en el paquete FNN para R.
 
     \begin{table}[ht]
       \centering
@@ -406,6 +431,7 @@ El problema de optimización solo depende de la matriz $\langle \vec{x}_i, \vec{
 \end{frame}
 
 \begin{frame}
+\frametitle{Máquinas de Soporte Vectorial}
   \begin{table}[ht]
     \centering
     \resizebox{0.7\textwidth}{!} {
@@ -430,6 +456,16 @@ El problema de optimización solo depende de la matriz $\langle \vec{x}_i, \vec{
       \end{tabular}
     }
   \end{table}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conclusiones}
+En esta diapositiva va un diagrama de barras con cada una de las sensitividades por clase y por método. También sus especificidades.
+\end{frame}
+
+\begin{frame}
+\frametitle{conclusiones}
+Maravillosa frase final
 \end{frame}
 
 \begin{frame}[allowframebreaks]

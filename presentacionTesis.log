@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  25 MAY 2015 08:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  26 MAY 2015 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,29 +1261,36 @@ G copy)>] [6
 
 ] [25
 
-] (./presentacionTesis.bbl)
-[26
+] [26
 
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
-[27
-
+] [27
 
 ] [28
 
-
 ] [29
 
+]
+(./presentacionTesis.bbl) [30
 
-] [30
-
-
-] [31
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>] [31
 
 
 ] [32
 
 
 ] [33
+
+
+] [34
+
+
+] [35
+
+
+] [36
+
+
+] [37
 
 
 ]
@@ -1296,17 +1303,16 @@ G copy)>] [6
 \tf@snm=\write8
 \openout8 = `presentacionTesis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 477.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 477.
  (./presentacionTesis.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 477.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 477.
 Package rerunfilecheck Info: File `presentacionTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 49ADD981F872960911DD1C4D13F5F45A;487.
-
+(rerunfilecheck)             Checksum: 47C294BB18E0AFDE06148429DC6F492A;487.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1314,13 +1320,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 441.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 477.
  ) 
 Here is how much of TeX's memory you used:
- 18486 strings out of 493304
- 334398 string characters out of 6139871
- 429060 words of memory out of 5000000
- 21409 multiletter control sequences out of 15000+600000
+ 18502 strings out of 493304
+ 334538 string characters out of 6139871
+ 428043 words of memory out of 5000000
+ 21417 multiletter control sequences out of 15000+600000
  13914 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  53i,14n,92p,435b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1338,10 +1344,10 @@ sfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on presentacionTesis.pdf (33 pages, 660635 bytes).
+Output written on presentacionTesis.pdf (37 pages, 666595 bytes).
 PDF statistics:
- 1016 PDF objects out of 1200 (max. 8388607)
- 944 compressed objects within 10 object streams
- 95 named destinations out of 1000 (max. 500000)
+ 1122 PDF objects out of 1200 (max. 8388607)
+ 1045 compressed objects within 11 object streams
+ 103 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
