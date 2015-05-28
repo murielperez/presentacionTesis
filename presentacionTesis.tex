@@ -6,13 +6,13 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \title{Clasificación de Series de Tiempo Astronómicas}
-\author{Muriel Pérez\inst{1} \and Adolfo Quiroz \inst{1} \and Alejandro García\inst{2}}
+\author{Muriel Pérez \inst{1} \and Adolfo Quiroz \inst{1}  \and Alejandro García\inst{2} }
 \institute[shortinst]{\inst{1} Universidad de los Andes, Departamento de Matemáticas \and%
 \inst{2} Universidad de los Andes, Departamento de Física}
 \begin{document}
 
 \begin{frame}
-\titlepage
+  \titlepage
 \end{frame}
 
 \begin{frame}
@@ -60,13 +60,13 @@
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[b]{0.4\textwidth}
-      \includegraphics[width=\textwidth]{./img/OGLE-LMC-DSCT-0010_1.png}
+      \includegraphics[width=\textwidth]{./img/OGLE-LMC-DSCT-0340_1.jpg}
       \caption{$\delta$-Scuti}
       \label{fig:tiger}
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
-    \caption{http://www.aavso.org/types-variables}\label{fig:animals}
+    \caption{Catalogo de Estrellas Variables OGLE-III}\label{fig:animals}
   \end{figure}
 
 \end{frame}
@@ -128,7 +128,65 @@
 
 \begin{frame}
   \frametitle{Tipos de Variabilidad}
-  En esta diapositiva va una curva de luz de cada tipo.
+  Dos objetos de tipo RR Lyrae
+  \begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.4\textwidth}
+      \includegraphics[width=\textwidth]{./img/OGLE-LMC-RRLYR-10000_1.jpg}
+      \caption{RRLyr}
+      \label{fig:gull}
+    \end{subfigure}%
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
+    % (or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.4\textwidth}
+      \includegraphics[width=\textwidth]{./img/OGLE-LMC-RRLYR-12320_1.jpg}
+      \caption{RRLyr}
+      \label{fig:tiger}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
+    % (or a blank line to force the subfigure onto a new line)
+    \caption{Catalogo de Estrellas Variables OGLE-III}\label{fig:animals}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tipos de Variabilidad}
+  Dos Cefeidas
+  \begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.4\textwidth}
+      \includegraphics[width=\textwidth]{./img/OGLE-LMC-CEP-1000_1.jpg}
+      \caption{Cefeida en el primer sobretono}
+      \label{fig:gull}
+    \end{subfigure}%
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
+    % (or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.4\textwidth}
+      \includegraphics[width=\textwidth]{./img/OGLE-LMC-CEP-1240_1.jpg}
+      \caption{Cefeida en su modo fundamental}
+      \label{fig:tiger}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
+    % (or a blank line to force the subfigure onto a new line)
+    \caption{Catalogo de Estrellas Variables OGLE-III}\label{fig:animals}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tipos de Variabilidad}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{./img/OGLE-LMC-LPV-10000.jpg}
+    \caption{Variable de Largo Periodo}
+    \label{fig:gull}
+  \end{figure}%
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{./img/OGLE-LMC-T2CEP-049_1.jpg}
+    \caption{Cefeida Tipo 2}
+    \label{fig:gull}
+  \end{figure}%
+  
 \end{frame}
 
 
@@ -143,12 +201,23 @@
 \end{frame}
 
 \begin{frame}
-  Aquí va una curva de luz con su histograma
+  Escogimos algunas variables descriptivas de la densidad de magnitudes.
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{./img/curvaHist.pdf}
+    \caption{ Curva de luz de OGLE-LMC-CEP-0503 y su densidad de magnitudes}
+    \label{fig:gull}
+  \end{figure}%
 \end{frame}
 
 \begin{frame}
   Debido a que en algunas curvas existen puntos atípicos, es necesario utilizar medidas robustas. Estas medidas están típicamente basadas en cuantiles de la distribución de las magniudes. 
-  Aquí va una curva de luz con un punto atípico
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{./img/curvaRara.pdf}
+    \caption{ Curva de luz de OGLE-LMC-CEP-0503 y su densidad de magnitudes}
+    \label{fig:gull}
+  \end{figure}%
 \end{frame}
 
 \subsection{Características Escogidas}
@@ -167,8 +236,9 @@ Las medidas escogidas debían ser robustas ante la presencia de datos atípicos.
     & Medidas de peso de colas \\
     Medidas de forma & Entropía diferencial \\
     & Valores Abbe \\
+    & Variación Cuadrática
   \end{tabular}
-  \caption{Varriables escogidas}
+  \caption{Variables escogidas}
 \end{table}
 
 \end{frame}
@@ -187,7 +257,7 @@ Las medidas escogidas debían ser robustas ante la presencia de datos atípicos.
 
 \begin{frame}
   \frametitle{Parámetros de Localización}
-  Utilizamos un estimador robusto del promedio que hace parte de los llamados M-estimadores. Huber propuso escoger $\mu$ al resolver resolver el problema 
+  Utilizamos un estimador robusto del promedio que hace parte de los llamados M-estimadores. Huber \cite{huber_robust_2011} propuso escoger $\mu$ al resolver resolver el problema 
   \begin{equation}
     \sum_i\psi\left(\frac{m_i-\mu}{\sigma}\right) = 0
   \end{equation}
@@ -236,7 +306,11 @@ Las medidas escogidas debían ser robustas ante la presencia de datos atípicos.
   \begin{equation}
     \mathcal{A}=\frac{n}{2(n-1)}\frac{\sum_{i}{(m_{i}-m_{i-1})^{2}}}{\sum_{i}{(m_{i}-\mu})^2}
   \end{equation}
-  y puede ser calculado en subintervalos de tiempo.
+  y puede ser calculado en subintervalos de tiempo. Si $\mathcal{A}_{t,i}$ es el valor abbe calculado en $[m_i-\Delta t/2, m_i + \Delta t/2]$, tomamos
+  \begin{equation}
+    \bar{\mathcal{A}}_t = \frac{1}{n}\sum_{i=1}^{n}\mathcal{A}_{t,i}
+  \end{equation}
+  para $\Delta t = 5d, 10d, 20d, 50d, 100d, 200d, 500d, 750d.$
 \end{frame}
 
 \subsection{Aprendizaje supervisado}
@@ -279,32 +353,32 @@ El problema: Encontrar una función $g:\mathbb{R}^n\to J  $ que se equivoque lo 
   \frametitle{k Vecinos Más Cercanos}
 A un punto a clasificar se la asigna la clase a la cual pertenece la mayoría entre sus k vecinos más cercanos. Se sabe que este método es consistente, es decir, que tiende al clasificador de Bayes cuando el tamaño de la muestra tiende a infinito. Existe una implementación abierta en el paquete FNN para R.
 
-    \begin{table}[ht]
-      \centering
+\begin{table}[ht]
+  \centering
   \resizebox{0.7\textwidth}{!} {
-      \begin{tabular}{rrrrrrrr}
-        \hline
-        \hline
-        Referencia& BeEC & Cef & dSct & SBE & VLP & RRLyr & CefT2 \\ 
-        \hline
-        \hline
-        BeEC & 0.762 & 0.001 & 0.000 & 0.001 & 0.000 & 0.000 & 0.002 \\ 
-        Cef & 0.061 & 0.832 & 0.004 & 0.005 & 0.000 & 0.041 & 0.166 \\ 
-        dSct & 0.000 & 0.001 & 0.648 & 0.014 & 0.000 & 0.010 & 0.000 \\ 
-        SBE & 0.080 & 0.016 & 0.175 & 0.915 & 0.001 & 0.027 & 0.078 \\ 
-        VLP & 0.076 & 0.007 & 0.003 & 0.022 & 0.998 & 0.001 & 0.090 \\ 
-        RRLyr & 0.021 & 0.139 & 0.169 & 0.041 & 0.000 & 0.920 & 0.289 \\ 
-        CefT2 & 0.000 & 0.004 & 0.000 & 0.001 & 0.000 & 0.002 & 0.376 \\ 
-        \hline
-        \hline
-        Sensitividad & 0.762 & 0.832 & 0.648 & 0.915 & 0.998 & 0.920 & 0.376 \\ 
-        \hline
-        Error & 0.038 & 0.008 & 0.018 & 0.003 & 0.000 & 0.003 & 0.039 \\ 
-        \hline
-        \hline
-      \end{tabular}
-    }
-    \end{table}
+    \begin{tabular}{rrrrrrrr}
+      \hline
+      \hline
+      Referencia& BeEC & Cef & dSct & SBE & VLP & RRLyr & CefT2 \\ 
+      \hline
+      \hline
+      BeEC & 0.762 & 0.001 & 0.000 & 0.001 & 0.000 & 0.000 & 0.002 \\ 
+      Cef & 0.061 & 0.832 & 0.004 & 0.005 & 0.000 & 0.041 & 0.166 \\ 
+      dSct & 0.000 & 0.001 & 0.648 & 0.014 & 0.000 & 0.010 & 0.000 \\ 
+      SBE & 0.080 & 0.016 & 0.175 & 0.915 & 0.001 & 0.027 & 0.078 \\ 
+      VLP & 0.076 & 0.007 & 0.003 & 0.022 & 0.998 & 0.001 & 0.090 \\ 
+      RRLyr & 0.021 & 0.139 & 0.169 & 0.041 & 0.000 & 0.920 & 0.289 \\ 
+      CefT2 & 0.000 & 0.004 & 0.000 & 0.001 & 0.000 & 0.002 & 0.376 \\ 
+      \hline
+      \hline
+      Sensitividad & 0.762 & 0.832 & 0.648 & 0.915 & 0.998 & 0.920 & 0.376 \\ 
+      \hline
+      Error & 0.038 & 0.008 & 0.018 & 0.003 & 0.000 & 0.003 & 0.039 \\ 
+      \hline
+      \hline
+    \end{tabular}
+  }
+\end{table}
 \end{frame}
 
 \begin{frame}
@@ -395,43 +469,45 @@ En el caso en que los datos sean linealmente separables, podemos encontrar el pl
 \frametitle{Máquinas de Soporte Vectorial (SVM)}
 Si los datos no son linealmente separables, podemos introducir variables de holgura $\xi_i$ y resolver
 \begin{equation*}
-\begin{aligned}
-& \underset{\alpha}{\text{minimizar}}
-& & \langle \vec{w}, \vec{w}\rangle + C\sum_i\xi_i  \\
-& \text{sujeto a}
-& & j_i(\langle \vec{w}, \vec{x_i}\rangle + b)\geq 1-\xi_i, \; i = 1, \ldots, N.\\
-& & & \xi_i\geq 0 \; i = 1, \ldots, N.
-\end{aligned}
-\end{equation*} 
+  \begin{aligned}
+    & \underset{\vec{w},b, \vec{\xi}}{\text{minimizar}}
+    & & \langle \vec{w}, \vec{w} \rangle +C\sum_i\xi_i^2,\\
+    & \text{sujeto a}
+    & & j_i(\langle \vec{w}, \vec{x_i}\rangle + b)\geq 1-\xi_i, \\
+    & & & \xi_i>0, \\
+    & & & i = 1, \ldots, N,
+  \end{aligned}
+\end{equation*}
 cuyo problema dual es
-\begin{equation*}
-\begin{aligned}
-& \underset{\alpha}{\text{minimizar}}
-& & \frac{1}{2} \sum_{i,k} j_{i}j_{k}\alpha_{i}\alpha_{k}\langle \vec{x}_{i}, \vec{x}_{k}\rangle - \sum_{i} \alpha_{i}  \\
-& \text{sujeto a}
-& & \sum_{i}\alpha_{i} j_{i} = 0\\
-& & & 0\leq\alpha_i\leq C \; i = 1, \ldots, N.
-\end{aligned}
+\begin{equation*}\label{eq:problemaOptimizacionDualMSV}
+  \begin{aligned}
+    & \underset{\vec{\alpha}}{\text{maximizar}}
+    & & \sum_{i=1}^N \alpha_i -\frac{1}{2}\sum_{i,k=1}^Nj_ij_k\alpha_i\alpha_k\left( \langle\vec{x}_i, \vec{x}_k\rangle + \frac{1}{C}\delta_{ik}  \right)\\
+    & \text{sujeto a}
+    & & \sum_{i=1}^Nj_i\alpha_i = 0, \\
+    & & & \alpha_i \geq 0, i = 1,\dots,N,
+  \end{aligned}
 \end{equation*}
 \end{frame} 
 
 
 \begin{frame}
-\frametitle{Máquinas de Soporte Vectorial (SVM)}
+\frametitle{Máquinas de Soporte Vectorial (MSV)}
 El problema de optimización solo depende de la matriz $\langle \vec{x}_i, \vec{x}_j\rangle$. Podemos encontrar una función $K(\vec{x}, \vec{y})$ que cumpla $K(\vec{x}, \vec{y}) = \langle \phi(\vec{x}) , \phi(\vec{y})\rangle_{H}$ para cierta función $\phi:\mathbb{R}^n\rightarrow H$ siendo $H$ algún espacio con producto interno y encontrar el plano separador en $H$ resolviendo el problema de optimización.
-\begin{equation*}
-\begin{aligned}
-& minimizar
-& & \frac{1}{2} \sum_{i,k} j_{i}j_{k}\alpha_{i}\alpha_{k}K( \vec{x}_{i}, \vec{x}_{k}) - \sum_{i} \alpha_{i}  \\
-& \text{sujeto a}
-& & \sum_{i}\alpha_{i} j_{i} = 0\\
-& & & 0\leq\alpha_i\leq C \; i = 1, \ldots, N.
-\end{aligned}
+
+\begin{equation*}\label{eq:problemaOptimizacionDualKernelMSV}
+  \begin{aligned}
+    & \underset{\vec{\alpha}}{\text{maximizar}}
+    & & \sum_{i=1}^N \alpha_i -\frac{1}{2}\sum_{i,k=1}^Nj_ij_k\alpha_i\alpha_k K\left(\vec{x}_i, \vec{x}_k\right)\\
+    & \text{sujeto a}
+    & & \sum_{i=1}^Nj_i\alpha_i = 0, \\
+    & & & \alpha_i \geq 0 , i = 1,\dots,n. 
+  \end{aligned}
 \end{equation*}
 \end{frame}
 
 \begin{frame}
-\frametitle{Máquinas de Soporte Vectorial}
+\frametitle{Máquinas de Soporte Vectorial (MSV)}
   \begin{table}[ht]
     \centering
     \resizebox{0.7\textwidth}{!} {
@@ -450,23 +526,38 @@ El problema de optimización solo depende de la matriz $\langle \vec{x}_i, \vec{
         \hline
         Sensitividad &  0.891 & 0.869 & 0.769 & 0.963 & 0.999 & 0.964 & 0.461 \\ 
         \hline
-        Error & 0.028 & 0.007 & 0.016 & 0.002 & 0.000 & 0.002 & 0.040 \\ 
+        Error & 0.028 & 0.007 & 0.016 & 0.002 & $\sim 10^{-5}$ & 0.002 & 0.040 \\ 
         \hline
         \hline
       \end{tabular}
     }
+    \caption{Resultados de la clasificación con MSV}
   \end{table}
 \end{frame}
 
 \begin{frame}
 \frametitle{Conclusiones}
-En esta diapositiva va un diagrama de barras con cada una de las sensitividades por clase y por método. También sus especificidades.
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./img/resumen.pdf}
+    \caption{}
+    \label{fig:gull}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
-\frametitle{conclusiones}
-Maravillosa frase final
+  \frametitle{Conclusiones}
+  \begin{itemize}
+  \item Es posible utilizar variables descriptivas de la densidad de magnitudes para clasificar curvas de luz.
+  \item Este tipo de clasificadores puede ser utilizado como primera aproximación a una base de datos nueva. Así, se puede reducir el tiempo humano empleado al clasificar curvas de luz. 
+  \item La mejor abordar este problema de clasificación es utilizar una combinación de clasificadores.
+  \end{itemize}
 \end{frame}
+
+\begin{frame}
+  ¡Gracias!
+\end{frame}
+
 
 \begin{frame}[allowframebreaks]
   \frametitle{Referencias}
