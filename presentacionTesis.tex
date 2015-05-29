@@ -20,16 +20,15 @@
   \tableofcontents
 \end{frame}
 
-
-\section{Curvas de luz}
+\section{Clasificación de Series de Tiempo Astronómicas}
+\subsection{Curvas de Luz}
 \begin{frame}%Mostrar una foto tomada por un telescopio y explicar como extraen las curvas de luz
   \frametitle{Curvas de Luz}
   
   \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./img/telescopio.jpg}
-    \caption{Telescopio utilizado por el \textit{Optical Gravitational Lensing Experiment} (OGLE) localizado en Las Campanas, Chile. }
-    \label{fig:gull}
+    \caption{Telescopio de 2,2m utilizado por el \textit{Optical Gravitational Lensing Experiment} (OGLE) localizado en Las Campanas, Chile. }
   \end{figure}
 \end{frame}
 
@@ -40,7 +39,6 @@
     \centering
     \includegraphics[width=0.8\textwidth]{./img/fields_lmc.jpg}
     \caption{Campos observados por OGLE-III en la Gran Nube de Magallanes}
-    \label{fig:tiger}
   \end{figure}
 \end{frame}
 
@@ -55,36 +53,33 @@
     \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{./img/OGLE-LMC-CEP-0100_1.png}
       \caption{Cefeida}
-      \label{fig:gull}
     \end{subfigure}%
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{./img/OGLE-LMC-DSCT-0340_1.jpg}
       \caption{$\delta$-Scuti}
-      \label{fig:tiger}
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
-    \caption{Catalogo de Estrellas Variables OGLE-III}\label{fig:animals}
+    \caption{Catalogo de Estrellas Variables OGLE-III}
   \end{figure}
-
 \end{frame}
+
 
 \begin{frame}
   \frametitle{Curvas de luz}
   Con avances en instrumenación hay disponibles gran cantidad de curvas de luz. Existen proyectos como:
   \begin{itemize}
-  \item Kepler Mission, NASA
-  \item VISTA Variables in the Via Lactea Survey (VVV), ESO
-  \item Panoramic Survey Telescope \& Rapid Response System (PANSTARRS), Universidad de Hawaii
+  \item Kepler Mission, NASA;
+  \item VISTA Variables in the Via Lactea Survey (VVV), ESO;
+  \item Panoramic Survey Telescope \& Rapid Response System (PANSTARRS), Universidad de Hawaii;
   \end{itemize}
-  Que obtendrán enetre resultados del orden de $10^9$ curvas de luz. Es necesario un sistema de clasificación automática.
+  que obtendrán entre resultados del orden de $10^9$ curvas de luz. Es necesario un sistema de clasificación automática.
 \end{frame}
 
 \begin{frame}
   \frametitle{Datos}
-  
   \begin{table}
     \centering  
     \resizebox{0.6\textwidth}{!} {
@@ -109,7 +104,7 @@
         Binarias Eclipsantes - SMC \cite{pawlak_eclipsing_2013}& 6138 & 32259\\
         Binarias Eclipsantes - LMC \cite{graczyk_optical_2011}& 26121 & \\
         \hline
-        $\delta$-Scuti - SMC\cite{poleski_optical_2010} & 2786 & 2788\\
+        $\delta$Scuti - SMC\cite{poleski_optical_2010} & 2786 & 2788\\
         \hline
         Cefeidas Tipo II - GB \cite{soszynski_optical_2013}& 335 & \\
         Cefeidas Tipo II - LMC \cite{soszynski_optical_2010-1}& 43 & 603\\
@@ -120,7 +115,7 @@
         \hline 
       \end{tabular}
     } 
-    \caption{Conjunto de datos utilizados. GB hace referencia al Bulbo Galáctico; LMC, a la Pequeña Nube de Magallanes y LMC, a la Gran Nube de Magallanes. }
+    \caption{Conjunto de datos utilizados. GB hace referencia al Bulbo Galáctico; SMC, a la Pequeña Nube de Magallanes y LMC, a la Gran Nube de Magallanes. }
     \label{cuadro:datosUsados}
   \end{table}
 
@@ -134,18 +129,16 @@
     \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{./img/OGLE-LMC-RRLYR-10000_1.jpg}
       \caption{RRLyr}
-      \label{fig:gull}
     \end{subfigure}%
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{./img/OGLE-LMC-RRLYR-12320_1.jpg}
       \caption{RRLyr}
-      \label{fig:tiger}
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
-    \caption{Catalogo de Estrellas Variables OGLE-III}\label{fig:animals}
+    \caption{Catalogo de Estrellas Variables OGLE-III}
   \end{figure}
 \end{frame}
 
@@ -156,19 +149,17 @@
     \centering
     \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{./img/OGLE-LMC-CEP-1000_1.jpg}
-      \caption{Cefeida en el primer sobretono}
-      \label{fig:gull}
+      \caption{Cefeida pulsando en el primer harmónico}
     \end{subfigure}%
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{./img/OGLE-LMC-CEP-1240_1.jpg}
-      \caption{Cefeida en su modo fundamental}
-      \label{fig:tiger}
+      \caption{Cefeida  pulsando en el modo fundamental}
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
-    \caption{Catalogo de Estrellas Variables OGLE-III}\label{fig:animals}
+    \caption{Catalogo de Estrellas Variables OGLE-III}
   \end{figure}
 \end{frame}
 
@@ -178,19 +169,17 @@
     \centering
     \includegraphics[width=0.6\textwidth]{./img/OGLE-LMC-LPV-10000.jpg}
     \caption{Variable de Largo Periodo}
-    \label{fig:gull}
   \end{figure}%
   \begin{figure}
     \centering
     \includegraphics[width=0.4\textwidth]{./img/OGLE-LMC-T2CEP-049_1.jpg}
     \caption{Cefeida Tipo 2}
-    \label{fig:gull}
   \end{figure}%
   
 \end{frame}
 
 
-\section{El problema de aprendizaje}
+\subsection{El problema de Aprendizaje}
 \begin{frame}%Caracteristicas
   \frametitle{Características}
 \begin{itemize}
@@ -201,23 +190,55 @@
 \end{frame}
 
 \begin{frame}
-  Escogimos algunas variables descriptivas de la densidad de magnitudes.
+  \frametitle{Características}
+  Escogimos algunas variables descriptivas de la densidad de magnitudes, la variación cuadrática y los valores Abbe.
   \begin{figure}
     \centering
     \includegraphics[width=0.6\textwidth]{./img/curvaHist.pdf}
     \caption{ Curva de luz de OGLE-LMC-CEP-0503 y su densidad de magnitudes}
-    \label{fig:gull}
   \end{figure}%
 \end{frame}
 
 \begin{frame}
+  \frametitle{Características}
   Debido a que en algunas curvas existen puntos atípicos, es necesario utilizar medidas robustas. Estas medidas están típicamente basadas en cuantiles de la distribución de las magniudes. 
   \begin{figure}
     \centering
     \includegraphics[width=0.6\textwidth]{./img/curvaRara.pdf}
-    \caption{ Curva de luz de OGLE-LMC-CEP-0503 y su densidad de magnitudes}
-    \label{fig:gull}
+    \caption{ Curva de luz de una candidata a Be}
   \end{figure}%
+\end{frame}
+
+\subsection{Aprendizaje Supervisado}
+\begin{frame}%Poner aqui el problema en general encontrar una funci g tq ta ta ta
+\frametitle{Clasificadores}
+El problema: Encontrar una función $g:\mathbb{R}^n\to J  $ que se equivoque lo menos posible.
+\begin{itemize}
+  \item Suponemos que hay una medida de probabilidad $P$ sobre $\mathbb{R}^n\times J$ tal que $P(\vec{x}, j)$ es la probabilidad de observar el vector $\vec{x}$ con la etiqueta $j$.
+  \item La probabilidad de que nuestro clasificador $g$ se equivoque es $P(g(\vec{x}) \neq j)$ que queremos minimizar.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}%Explicar cual es el mejor clasificador posible
+  \frametitle{El clasificador de Bayes}
+  ¿Cuál es el mejor clasificador posible?
+  \begin{itemize} 
+  \item El clasificador
+    \begin{equation}
+      g(\vec{x}) = argmax_{j}P(\vec{x}|j)P(j)
+    \end{equation}
+    es llamado el \textbf{clasificador de Bayes}. Es el mejor clasificador posible.
+  \end{itemize}
+  En general no se conocen las distribuciones marginales $P(\vec{x}|j)$.
+\end{frame}
+
+\subsection{Metodología de Aprendizaje}
+\begin{frame} %Hablar de el proceso de entrenamiento
+  \frametitle{Metodología de aprendizaje}
+  \begin{itemize}
+  \item Utilizamos un \textbf{algorítmo de aprendizaje} para escoger una regla de clasificación de un \textbf{conjunto de hipótesis} basado en la \textbf{muestra de entrenamiento}.
+  \item Estimamos el error de clasificación usando \textbf{validación cruzada} de 10 iteraciones.
+  \end{itemize}
 \end{frame}
 
 \subsection{Características Escogidas}
@@ -228,8 +249,9 @@ Las medidas escogidas debían ser robustas ante la presencia de datos atípicos.
   \centering
   \begin{tabular}{ll}
     \hline
-    Variables de localización & Media \\
+    Tipo de variables & Variable \\
     \hline
+    Variables de localización & Media \\
     Variables de escala & Rango Intercuartiles (IQR) \\
     & Desviación Absoluta Mediana (MAD) \\
     Medidas de Sesgo & \textit{Medcouple} \\
@@ -277,9 +299,9 @@ Las medidas escogidas debían ser robustas ante la presencia de datos atípicos.
   \begin{equation}
     \frac{(Q_{1-p}-Q_{0.5})-(Q_{0.5}-Q_p)}{Q_{1-p}-Q_{p}}
   \end{equation}
-  para p = 0.125, 0.25. Además consideramos el \textit{medcouple}
+  para p = 0.125, 0.25. Además consideramos el \textit{medcouple} propuesta por Brys, Hubert y Struyf \cite{brys_robust_2004}
   \begin{equation}
-    MC = mediana_{x_i\leq Q_{0.5} x_j} h_1(x_i,x_j)
+    MC = mediana_{x_i\leq Q_{0.5} \leq x_j} h_1(x_i,x_j)
   \end{equation}
   con
   \begin{equation}
@@ -302,7 +324,7 @@ Las medidas escogidas debían ser robustas ante la presencia de datos atípicos.
 
 \begin{frame}
   \frametitle{Valor Abbe}
-  El valor Abbe fue propuesto por (cita) para detectar curvas de luz con fenómenos transientes. Se define como
+  El valor Abbe fue propuesto por Mowlavi \cite{mowlavi_searching_2014} para detectar curvas de luz con fenómenos transientes. Se define como
   \begin{equation}
     \mathcal{A}=\frac{n}{2(n-1)}\frac{\sum_{i}{(m_{i}-m_{i-1})^{2}}}{\sum_{i}{(m_{i}-\mu})^2}
   \end{equation}
@@ -313,42 +335,21 @@ Las medidas escogidas debían ser robustas ante la presencia de datos atípicos.
   para $\Delta t = 5d, 10d, 20d, 50d, 100d, 200d, 500d, 750d.$
 \end{frame}
 
-\subsection{Aprendizaje supervisado}
-\begin{frame}%Poner aqui el problema en general encontrar una funci g tq ta ta ta
-\frametitle{Clasificadores}
-El problema: Encontrar una función $g:\mathbb{R}^n\to J  $ que se equivoque lo menos posible.
-\begin{itemize}
-  \item Suponemos que hay una medida de probabilidad $P$ sobre $\mathbb{R}^n\times J$ tal que $P(\vec{x}, j)$ es la probabilidad de observar el vector $\vec{x}$ con la etiqueta $j$.
-  \item La probabilidad de que nuestro clasificador $g$ se equivoque es $P(g(\vec{x}) \neq j)$. Queremos maximizar $P(g(\vec{x}) = j)$.
-  \end{itemize}
-\end{frame}
-
-
-\subsection{Clasificador de Bayes}
-\begin{frame}%Explicar cual es el mejor clasificador posible
-  \frametitle{El clasificador de Bayes}
-  ¿Cuál es el mejor clasificador posible?
-  \begin{itemize} 
-  \item El clasificador
-    \begin{equation}
-      g(\vec{x}) = argmax_{j}P(\vec{x}|j)P(j)
-    \end{equation}
-    es llamado el \textbf{clasificador de Bayes}. Es el mejor clasificador posible.
-  \end{itemize}
-  En general no se conocen las distribuciones marginales $P(\vec{x}|j)$.
-\end{frame}
-
-\subsection{Metodología de Aprendizaje}
-\begin{frame} %Hablar de el proceso de entrenamiento
-  \frametitle{Metodología de aprendizaje}
-  \begin{itemize}
-  \item Utilizamos un \textbf{algorítmo de aprendizaje} para escoger una regla de clasificación de un \textbf{conjunto de hipótesis}.
-  \item Estimamos el error de clasificación usando \textbf{validación cruzada} de 10 iteraciones.
-  \end{itemize}
-\end{frame}
 
 
 \subsection{Clasificadores y Resultados}
+
+\begin{frame}
+  \frametitle{Classificación}
+  Evaluamos el desempeño diferentes álgorítmos de aprendizaje:
+  \begin{itemize}
+  \item k vecinos más cercanos
+  \item Árboles de clasificación
+  \item Bosques Aleatorios
+  \item Máquinas de soporte vectorial
+  \item Un algorítmo híbrido
+  \end{itemize}
+\end{frame}
 \begin{frame}%k vecinos más cercanos
   \frametitle{k Vecinos Más Cercanos}
 A un punto a clasificar se la asigna la clase a la cual pertenece la mayoría entre sus k vecinos más cercanos. Se sabe que este método es consistente, es decir, que tiende al clasificador de Bayes cuando el tamaño de la muestra tiende a infinito. Existe una implementación abierta en el paquete FNN para R.
@@ -358,23 +359,19 @@ A un punto a clasificar se la asigna la clase a la cual pertenece la mayoría en
   \resizebox{0.7\textwidth}{!} {
     \begin{tabular}{rrrrrrrr}
       \hline
-      \hline
-      Referencia& BeEC & Cef & dSct & SBE & VLP & RRLyr & CefT2 \\ 
-      \hline
+      Referencia& BeEC & Cef & $\delta$Scuti & SBE & VLP & RRLyr & CefT2 \\ 
       \hline
       BeEC & 0.762 & 0.001 & 0.000 & 0.001 & 0.000 & 0.000 & 0.002 \\ 
       Cef & 0.061 & 0.832 & 0.004 & 0.005 & 0.000 & 0.041 & 0.166 \\ 
-      dSct & 0.000 & 0.001 & 0.648 & 0.014 & 0.000 & 0.010 & 0.000 \\ 
+      $\delta$Scuti & 0.000 & 0.001 & 0.648 & 0.014 & 0.000 & 0.010 & 0.000 \\ 
       SBE & 0.080 & 0.016 & 0.175 & 0.915 & 0.001 & 0.027 & 0.078 \\ 
       VLP & 0.076 & 0.007 & 0.003 & 0.022 & 0.998 & 0.001 & 0.090 \\ 
       RRLyr & 0.021 & 0.139 & 0.169 & 0.041 & 0.000 & 0.920 & 0.289 \\ 
       CefT2 & 0.000 & 0.004 & 0.000 & 0.001 & 0.000 & 0.002 & 0.376 \\ 
       \hline
-      \hline
       Sensitividad & 0.762 & 0.832 & 0.648 & 0.915 & 0.998 & 0.920 & 0.376 \\ 
       \hline
-      Error & 0.038 & 0.008 & 0.018 & 0.003 & 0.000 & 0.003 & 0.039 \\ 
-      \hline
+      Error & 0.038 & 0.008 & 0.018 & 0.003 & $\sim 10^{4}$ & 0.003 & 0.039 \\ 
       \hline
     \end{tabular}
   }
@@ -382,8 +379,19 @@ A un punto a clasificar se la asigna la clase a la cual pertenece la mayoría en
 \end{frame}
 
 \begin{frame}
+\frametitle{Árboles de Clasificación}
+Arbol de clasificación construido con todos los datos y todas las variables. Solo se utilizan 5 de las 17 variables originales y el estimado del error por resubstitución es 21\%
+\begin{figure}
+  \centering
+  \includegraphics[width = 0.8\textwidth]{./img/arbolTotal.pdf}
+
+  \centering
+\end{figure}
+\end{frame}
+
+\begin{frame}
   \frametitle{Árboles de clasificación}
-  Fue propuesta por Breiman, Friedman, Stone y Olshen (cita). Creamos un árbol de decisión para clasificar los datos. Para clasificar un nuevo dato se hacen preguntas binarias de tipo $x_i\leq \alpha_i$. Si la respuesta es sí se procede al siguiente nodo de la izquierda y si es no,  a la derecha. En los nodos terminales se le asigna al nuevo dato una etiqueta. 
+  Fue propuesta por Breiman, Friedman, Stone y Olshen \cite{breiman_classification_1984}. Creamos un árbol de decisión para clasificar los datos. Para clasificar un nuevo dato se hacen preguntas binarias de tipo $x_i\leq \alpha_i$. Si la respuesta es sí se procede al siguiente nodo de la izquierda y si es no,  a la derecha. En los nodos terminales se le asigna al nuevo dato una etiqueta. 
   
   Existe una implementación libre en el paquete rpart para R.
 
@@ -393,21 +401,19 @@ A un punto a clasificar se la asigna la clase a la cual pertenece la mayoría en
     \resizebox{0.7\textwidth}{!} {
       \begin{tabular}{rrrrrrrr}
         \hline
-        & BeEC & Cef & dSct & SBE & VLP & RRLyr & CefT2 \\ 
+        & BeEC & Cef & $\delta$Scuti & SBE & VLP & RRLyr & CefT2 \\ 
         \hline
         BeEC & 0.903 & 0.008 & 0.002 & 0.026 & 0.007 & 0.001 & 0.005 \\ 
         Cef & 0.038 & 0.824 & 0.005 & 0.009 & 0.041 & 0.259 & 0.214 \\ 
-        dSct & 0.000 & 0.003 & 0.907 & 0.165 & 0.000 & 0.079 & 0.002 \\ 
+        $\delta$Scuti & 0.000 & 0.003 & 0.907 & 0.165 & 0.000 & 0.079 & 0.002 \\ 
         SBE & 0.002 & 0.011 & 0.054 & 0.624 & 0.000 & 0.034 & 0.020 \\ 
         VLP & 0.011 & 0.013 & 0.009 & 0.058 & 0.890 & 0.002 & 0.005 \\ 
         RRLyr & 0.000 & 0.002 & 0.022 & 0.002 & 0.000 & 0.509 & 0.007 \\ 
         CefT2 & 0.046 & 0.139 & 0.002 & 0.116 & 0.060 & 0.116 & 0.748 \\ 
         \hline
-        \hline
         Sensitividad & 0.903 & 0.824 & 0.907 & 0.624 & 0.890 & 0.509 & 0.748 \\ 
         \hline
         Error & 0.027 & 0.008 & 0.011 & 0.005 & 0.001 & 0.005 & 0.035 \\ 
-        \hline
         \hline
       \end{tabular}
     }
@@ -417,27 +423,25 @@ A un punto a clasificar se la asigna la clase a la cual pertenece la mayoría en
 
 \begin{frame}
   \frametitle{Bosques aleatorios}
-  Fue propuesto por Breiman (cita). Se crean árboles de clasificación que son clasificadores débiles pero que están poco correlacionados. Se toma la decisión utilizando la regla de la mayoría. Los árboles son creados utilizando un subconjunto aleatorio de las características en cada nodo y solo se construyen árboles poco profundos.
+  Fue propuesto por Breiman \cite{breiman_random_2001}. Se crean árboles de clasificación que son clasificadores débiles pero que están poco correlacionados. Se toma la decisión utilizando la regla de la mayoría. Los árboles son creados utilizando un subconjunto aleatorio de las características en cada nodo y solo se construyen árboles poco profundos.
   \begin{table}[ht]
     \centering
     \resizebox{0.7\textwidth}{!} {
       \begin{tabular}{rrrrrrrr}
         \hline
-        Referencia & BeEC & Cef & dSct & SBE & VLP & RRLyr & CefT2 \\ 
+        Referencia & BeEC & Cef & $\delta$Scuti & SBE & VLP & RRLyr & CefT2 \\ 
         \hline
         BeEC & 0.842 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 \\ 
         Cef & 0.002 & 0.810 & 0.002 & 0.001 & 0.000 & 0.018 & 0.138 \\ 
-        dSct & 0.000 & 0.000 & 0.738 & 0.004 & 0.000 & 0.004 & 0.000 \\ 
+        $\delta$Scuti & 0.000 & 0.000 & 0.738 & 0.004 & 0.000 & 0.004 & 0.000 \\ 
         SBE & 0.103 & 0.013 & 0.146 & 0.959 & 0.000 & 0.014 & 0.108 \\ 
         VLP & 0.048 & 0.009 & 0.004 & 0.020 & 1.000 & 0.001 & 0.111 \\ 
         RRLyr & 0.004 & 0.166 & 0.110 & 0.016 & 0.000 & 0.963 & 0.299 \\ 
         CefT2 & 0.000 & 0.002 & 0.000 & 0.000 & 0.000 & 0.000 & 0.345 \\
         \hline
-        \hline
         Sensitividad &  0.842 & 0.810 & 0.738 & 0.959 & 1.000 & 0.963 & 0.345 \\
         \hline
         Error & 0.033 & 0.009 & 0.016 & 0.002 & 0.000 & 0.002 & 0.038 \\ 
-        \hline
         \hline
       \end{tabular}
     }
@@ -513,21 +517,19 @@ El problema de optimización solo depende de la matriz $\langle \vec{x}_i, \vec{
     \resizebox{0.7\textwidth}{!} {
       \begin{tabular}{rrrrrrrr}
         \hline
-        Referencia & BeEC & Cef & dSct & SBE & VLP & RRLyr & CefT2 \\ 
+        Referencia & BeEC & Cef & $\delta$Scuti & SBE & VLP & RRLyr & CefT2 \\ 
         \hline
         BeEC & 0.891 & 0.000 & 0.000 & 0.001 & 0.000 & 0.000 & 0.000 \\ 
         Cef & 0.002 & 0.869 & 0.002 & 0.002 & 0.000 & 0.016 & 0.128 \\ 
-        dSct & 0.000 & 0.000 & 0.769 & 0.006 & 0.000 & 0.005 & 0.002 \\ 
+        $\delta$Scuti & 0.000 & 0.000 & 0.769 & 0.006 & 0.000 & 0.005 & 0.002 \\ 
         SBE & 0.048 & 0.008 & 0.117 & 0.963 & 0.001 & 0.013 & 0.075 \\ 
         VLP & 0.053 & 0.004 & 0.005 & 0.016 & 0.999 & 0.001 & 0.070 \\ 
         RRLyr & 0.006 & 0.115 & 0.107 & 0.012 & 0.000 & 0.964 & 0.265 \\ 
         CefT2 & 0.000 & 0.004 & 0.000 & 0.001 & 0.000 & 0.001 & 0.461 \\
         \hline
-        \hline
         Sensitividad &  0.891 & 0.869 & 0.769 & 0.963 & 0.999 & 0.964 & 0.461 \\ 
         \hline
         Error & 0.028 & 0.007 & 0.016 & 0.002 & $\sim 10^{-5}$ & 0.002 & 0.040 \\ 
-        \hline
         \hline
       \end{tabular}
     }
@@ -536,12 +538,42 @@ El problema de optimización solo depende de la matriz $\langle \vec{x}_i, \vec{
 \end{frame}
 
 \begin{frame}
+\frametitle{Propuesta}
+Podemos utilizar diferentes métodos para clasificar diferentes clases. Mostramos los resultados utilizar árboles de clasificación para separar primero Cefeidas y Cefeidas Tipo 2 del resto de tipos de variabilidad. Luego usamos MSV para distinguir entre clases en estos dos grupos.
+\begin{table}[ht]
+  \centering
+  \resizebox{0.7\textwidth}{!} {
+    \begin{tabular}{rrrrrrrr}
+      \hline
+      Referencia & BeEC & Cef & $\delta$Scuti & SBE & VLP & RRLyr & CefT2 \\ 
+      \hline
+      BeEC & 0.815 & 0.000 & 0.000 & 0.001 & 0.000 & 0.000 & 0.000 \\ 
+      Cef & 0.065 & 0.976 & 0.023 & 0.098 & 0.009 & 0.359 & 0.411 \\ 
+      $\delta$Scuti & 0.000 & 0.000 & 0.769 & 0.006 & 0.000 & 0.005 & 0.000 \\ 
+      SBE & 0.036 & 0.004 & 0.103 & 0.784 & 0.000 & 0.009 & 0.013 \\ 
+      VLP & 0.051 & 0.007 & 0.003 & 0.013 & 0.987 & 0.001 & 0.078 \\ 
+      RRLyr & 0.006 & 0.010 & 0.102 & 0.007 & 0.000 & 0.608 & 0.023 \\ 
+      CefT2 & 0.027 & 0.002 & 0.001 & 0.092 & 0.004 & 0.018 & 0.474 \\  
+      \hline
+      Sensitividad & 0.815 & 0.976 & 0.769 & 0.784 & 0.987 & 0.608 & 0.474 \\ 
+      \hline
+      Error & 0.035 & 0.003 & 0.016 & 0.004 & $\sim 10^{-4}$ & 0.005 & 0.040 \\ 
+      \hline
+    \end{tabular}
+  }
+  \caption{Estimados para las tasas de clasificación al clasificar con un método que combina árboles de clasificación y MSV }
+  \label{cuadro:clasificadorriollo}
+\end{table} 
+
+\end{frame}
+
+
+\begin{frame}
 \frametitle{Conclusiones}
   \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./img/resumen.pdf}
     \caption{}
-    \label{fig:gull}
   \end{figure}
 \end{frame}
 
@@ -552,6 +584,10 @@ El problema de optimización solo depende de la matriz $\langle \vec{x}_i, \vec{
   \item Este tipo de clasificadores puede ser utilizado como primera aproximación a una base de datos nueva. Así, se puede reducir el tiempo humano empleado al clasificar curvas de luz. 
   \item La mejor abordar este problema de clasificación es utilizar una combinación de clasificadores.
   \end{itemize}
+\end{frame}
+
+\begin{frame}
+  Preguntas y Respuestas
 \end{frame}
 
 \begin{frame}

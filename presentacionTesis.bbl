@@ -1,5 +1,21 @@
 \begin{thebibliography}{10}
 
+\bibitem{breiman_random_2001}
+Leo Breiman.
+\newblock Random forests.
+\newblock {\em Machine learning}, 45(1):5--32, 2001.
+
+\bibitem{breiman_classification_1984}
+Leo Breiman, Jerome Friedman, Charles~J. Stone, and R.~A. Olshen.
+\newblock {\em Classification and {Regression} {Trees}}.
+\newblock Chapman and Hall/CRC, New York, N.Y., 1 edition edition, January
+  1984.
+
+\bibitem{brys_robust_2004}
+G.~Brys, Mia Hubert, and A.~Struyf.
+\newblock A robust measure of skewness.
+\newblock {\em Journal of Computational and Graphical Statistics}, 13(4), 2004.
+
 \bibitem{graczyk_optical_2011}
 D.~Graczyk, I.~Soszyński, R.~Poleski, G.~Pietrzyński, A.~Udalski, M.~K.
   Szymański, M.~Kubiak, Ł. Wyrzykowski, and K.~Ulaczyk.
@@ -7,6 +23,17 @@ D.~Graczyk, I.~Soszyński, R.~Poleski, G.~Pietrzyński, A.~Udalski, M.~K.
   {OGLE}-{III} {Catalog} of {Variable} {Stars}. {XII}. {Eclipsing} {Binary}
   {Stars} in the {Large} {Magellanic} {Cloud}.
 \newblock {\em Acta Astronomica}, 61:103--122, June 2011.
+
+\bibitem{huber_robust_2011}
+Peter~J. Huber.
+\newblock {\em Robust statistics}.
+\newblock Springer, 2011.
+
+\bibitem{mowlavi_searching_2014}
+N.~Mowlavi.
+\newblock Searching transients in large-scale surveys. {A} method based on the
+  {Abbe} value.
+\newblock {\em Astronomy and Astrophysics}, 568:78, 2014.
 
 \bibitem{pawlak_eclipsing_2013}
 M.~Pawlak, D.~Graczyk, I.~Soszyński, P.~Pietrukowicz, R.~Poleski, A.~Udalski,
