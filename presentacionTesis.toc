@@ -7,3 +7,4 @@
 \beamer@subsectionintoc {1}{4}{Metodolog\IeC {\'\i }a de Aprendizaje}{16}{0}{1}
 \beamer@subsectionintoc {1}{5}{Caracter\IeC {\'\i }sticas Escogidas}{17}{0}{1}
 \beamer@subsectionintoc {1}{6}{Clasificadores y Resultados}{23}{0}{1}
+\beamer@subsectionintoc {1}{7}{Conclusiones}{34}{0}{1}

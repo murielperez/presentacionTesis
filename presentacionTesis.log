@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  28 MAY 2015 22:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  29 MAY 2015 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -972,26 +972,42 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count160
 \c@subtable=\count161
 )
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 9.
+
 (./presentacionTesis.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
 \openout1 = `presentacionTesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1057,7 +1073,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1067,56 +1083,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count168
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./presentacionTesis.out) (./presentacionTesis.out)
 \@outlinefile=\write5
 \openout5 = `presentacionTesis.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 12.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 28.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 12.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 12.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 12.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 12.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 12.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 12.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 12.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 12.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 12.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 12.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 12.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 12.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 28.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1142,25 +1158,25 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 12.
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
+LaTeX Info: Redefining \includegraphics on input line 28.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./presentacionTesis.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 16.
+(Font)              size <5> substituted on input line 32.
 
 [1
 
@@ -1169,36 +1185,36 @@ LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 ) [2
 
-] <./img/telescopio.jpg, id=109, 481.8pt x 361.35pt>
+] <./img/telescopio.jpg, id=115, 481.8pt x 361.35pt>
 File: ./img/telescopio.jpg Graphic file (type jpg)
 
 <use ./img/telescopio.jpg>
-Package pdftex.def Info: ./img/telescopio.jpg used on input line 33.
+Package pdftex.def Info: ./img/telescopio.jpg used on input line 49.
 (pdftex.def)             Requested size: 245.83282pt x 184.37428pt.
  [3
 
  <./img/telescopio.jpg>]
-<./img/fields_lmc.jpg, id=137, 856.19875pt x 610.28pt>
+<./img/fields_lmc.jpg, id=143, 856.19875pt x 610.28pt>
 File: ./img/fields_lmc.jpg Graphic file (type jpg)
 
 <use ./img/fields_lmc.jpg>
-Package pdftex.def Info: ./img/fields_lmc.jpg used on input line 43.
+Package pdftex.def Info: ./img/fields_lmc.jpg used on input line 59.
 (pdftex.def)             Requested size: 245.83282pt x 175.22598pt.
  [4
 
  <./img/fields_lmc.jpg>]
-<./img/OGLE-LMC-CEP-0100_1.png, id=164, 451.6875pt x 371.3875pt>
+<./img/OGLE-LMC-CEP-0100_1.png, id=170, 451.6875pt x 371.3875pt>
 File: ./img/OGLE-LMC-CEP-0100_1.png Graphic file (type png)
 
 <use ./img/OGLE-LMC-CEP-0100_1.png>
-Package pdftex.def Info: ./img/OGLE-LMC-CEP-0100_1.png used on input line 67.
+Package pdftex.def Info: ./img/OGLE-LMC-CEP-0100_1.png used on input line 83.
 (pdftex.def)             Requested size: 122.91406pt x 101.06366pt.
 
-<./img/OGLE-LMC-DSCT-0340_1.jpg, id=165, 74.1972pt x 58.5387pt>
+<./img/OGLE-LMC-DSCT-0340_1.jpg, id=171, 74.1972pt x 58.5387pt>
 File: ./img/OGLE-LMC-DSCT-0340_1.jpg Graphic file (type jpg)
 
 <use ./img/OGLE-LMC-DSCT-0340_1.jpg>
-Package pdftex.def Info: ./img/OGLE-LMC-DSCT-0340_1.jpg used on input line 67.
+Package pdftex.def Info: ./img/OGLE-LMC-DSCT-0340_1.jpg used on input line 83.
 (pdftex.def)             Requested size: 122.91406pt x 96.97589pt.
  [5
 
@@ -1208,56 +1224,56 @@ Package pdftex.def Info: ./img/OGLE-LMC-DSCT-0340_1.jpg used on input line 67.
 ] [7
 
 ]
-<./img/OGLE-LMC-RRLYR-10000_1.jpg, id=278, 73.9563pt x 58.5387pt>
+<./img/OGLE-LMC-RRLYR-10000_1.jpg, id=284, 73.9563pt x 58.5387pt>
 File: ./img/OGLE-LMC-RRLYR-10000_1.jpg Graphic file (type jpg)
 
 <use ./img/OGLE-LMC-RRLYR-10000_1.jpg>
-Package pdftex.def Info: ./img/OGLE-LMC-RRLYR-10000_1.jpg used on input line 14
-3.
+Package pdftex.def Info: ./img/OGLE-LMC-RRLYR-10000_1.jpg used on input line 15
+9.
 (pdftex.def)             Requested size: 122.91406pt x 97.29388pt.
 
-<./img/OGLE-LMC-RRLYR-12320_1.jpg, id=279, 73.9563pt x 58.5387pt>
+<./img/OGLE-LMC-RRLYR-12320_1.jpg, id=285, 73.9563pt x 58.5387pt>
 File: ./img/OGLE-LMC-RRLYR-12320_1.jpg Graphic file (type jpg)
 
 <use ./img/OGLE-LMC-RRLYR-12320_1.jpg>
-Package pdftex.def Info: ./img/OGLE-LMC-RRLYR-12320_1.jpg used on input line 14
-3.
+Package pdftex.def Info: ./img/OGLE-LMC-RRLYR-12320_1.jpg used on input line 15
+9.
 (pdftex.def)             Requested size: 122.91406pt x 97.29388pt.
  [8
 
  <./img/OGLE-LMC-RRLYR-10000_1.jpg> <./img/OGLE-LMC-RRLYR-12320_1.jpg>]
-<./img/OGLE-LMC-CEP-1000_1.jpg, id=305, 73.9563pt x 58.5387pt>
+<./img/OGLE-LMC-CEP-1000_1.jpg, id=311, 73.9563pt x 58.5387pt>
 File: ./img/OGLE-LMC-CEP-1000_1.jpg Graphic file (type jpg)
 
 <use ./img/OGLE-LMC-CEP-1000_1.jpg>
-Package pdftex.def Info: ./img/OGLE-LMC-CEP-1000_1.jpg used on input line 164.
+Package pdftex.def Info: ./img/OGLE-LMC-CEP-1000_1.jpg used on input line 180.
 (pdftex.def)             Requested size: 122.91406pt x 97.29388pt.
 
-<./img/OGLE-LMC-CEP-1240_1.jpg, id=306, 73.9563pt x 58.5387pt>
+<./img/OGLE-LMC-CEP-1240_1.jpg, id=312, 73.9563pt x 58.5387pt>
 File: ./img/OGLE-LMC-CEP-1240_1.jpg Graphic file (type jpg)
 
 <use ./img/OGLE-LMC-CEP-1240_1.jpg>
-Package pdftex.def Info: ./img/OGLE-LMC-CEP-1240_1.jpg used on input line 164.
+Package pdftex.def Info: ./img/OGLE-LMC-CEP-1240_1.jpg used on input line 180.
 (pdftex.def)             Requested size: 122.91406pt x 97.29388pt.
  [9
 
  <./img/OGLE-LMC-CEP-1000_1.jpg> <./img/OGLE-LMC-CEP-1240_1.jpg>]
-<./img/OGLE-LMC-LPV-10000.jpg, id=331, 128.6406pt x 58.5387pt>
+<./img/OGLE-LMC-LPV-10000.jpg, id=337, 128.6406pt x 58.5387pt>
 File: ./img/OGLE-LMC-LPV-10000.jpg Graphic file (type jpg)
 
 <use ./img/OGLE-LMC-LPV-10000.jpg>
-Package pdftex.def Info: ./img/OGLE-LMC-LPV-10000.jpg used on input line 179.
+Package pdftex.def Info: ./img/OGLE-LMC-LPV-10000.jpg used on input line 195.
 (pdftex.def)             Requested size: 184.3758pt x 83.91066pt.
 
-<./img/OGLE-LMC-T2CEP-049_1.jpg, id=332, 73.9563pt x 58.5387pt>
+<./img/OGLE-LMC-T2CEP-049_1.jpg, id=338, 73.9563pt x 58.5387pt>
 File: ./img/OGLE-LMC-T2CEP-049_1.jpg Graphic file (type jpg)
 
 <use ./img/OGLE-LMC-T2CEP-049_1.jpg>
-Package pdftex.def Info: ./img/OGLE-LMC-T2CEP-049_1.jpg used on input line 179.
+Package pdftex.def Info: ./img/OGLE-LMC-T2CEP-049_1.jpg used on input line 195.
 
 (pdftex.def)             Requested size: 122.91406pt x 97.29388pt.
 
-Overfull \vbox (12.93143pt too high) detected at line 179
+Overfull \vbox (12.93143pt too high) detected at line 195
  []
 
 [10
@@ -1265,19 +1281,19 @@ Overfull \vbox (12.93143pt too high) detected at line 179
  <./img/OGLE-LMC-LPV-10000.jpg> <./img/OGLE-LMC-T2CEP-049_1.jpg>] [11
 
 ]
-<./img/curvaHist.pdf, id=386, 361.35pt x 216.81pt>
+<./img/curvaHist.pdf, id=392, 361.35pt x 216.81pt>
 File: ./img/curvaHist.pdf Graphic file (type pdf)
  <use ./img/curvaHist.pdf>
-Package pdftex.def Info: ./img/curvaHist.pdf used on input line 200.
+Package pdftex.def Info: ./img/curvaHist.pdf used on input line 216.
 (pdftex.def)             Requested size: 184.3758pt x 110.62456pt.
 
 [12
 
- <./img/curvaHist.pdf>] <./img/curvaRara.pdf, id=420, 361.35pt x 216.81pt>
+ <./img/curvaHist.pdf>] <./img/curvaRara.pdf, id=426, 361.35pt x 216.81pt>
 File: ./img/curvaRara.pdf Graphic file (type pdf)
 
 <use ./img/curvaRara.pdf>
-Package pdftex.def Info: ./img/curvaRara.pdf used on input line 210.
+Package pdftex.def Info: ./img/curvaRara.pdf used on input line 226.
 (pdftex.def)             Requested size: 184.3758pt x 110.62456pt.
  [13
 
@@ -1305,13 +1321,13 @@ Package pdftex.def Info: ./img/curvaRara.pdf used on input line 210.
 ] [24
 
 ]
-<./img/arbolTotal.pdf, id=738, 361.35pt x 361.35pt>
+<./img/arbolTotal.pdf, id=745, 361.35pt x 361.35pt>
 File: ./img/arbolTotal.pdf Graphic file (type pdf)
  <use ./img/arbolTotal.pdf>
-Package pdftex.def Info: ./img/arbolTotal.pdf used on input line 390.
+Package pdftex.def Info: ./img/arbolTotal.pdf used on input line 406.
 (pdftex.def)             Requested size: 245.83282pt x 245.83604pt.
 
-Overfull \vbox (55.49211pt too high) detected at line 390
+Overfull \vbox (55.49211pt too high) detected at line 406
  []
 
 [25
@@ -1331,13 +1347,13 @@ Overfull \vbox (55.49211pt too high) detected at line 390
 ] [32
 
 ]
-<./img/resumen.pdf, id=955, 361.35pt x 361.35pt>
+<./img/resumen.pdf, id=961, 361.35pt x 361.35pt>
 File: ./img/resumen.pdf Graphic file (type pdf)
  <use ./img/resumen.pdf>
-Package pdftex.def Info: ./img/resumen.pdf used on input line 578.
+Package pdftex.def Info: ./img/resumen.pdf used on input line 594.
 (pdftex.def)             Requested size: 245.83282pt x 245.83604pt.
 
-Overfull \vbox (38.56293pt too high) detected at line 578
+Overfull \vbox (38.56293pt too high) detected at line 594
  []
 
 [33
@@ -1385,28 +1401,28 @@ Overfull \vbox (38.56293pt too high) detected at line 578
 \tf@snm=\write8
 \openout8 = `presentacionTesis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 604.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 604.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 621.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 621.
  (./presentacionTesis.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 604.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 604.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 621.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 621.
 Package rerunfilecheck Info: File `presentacionTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 75AE81CE2149F278D7C8189249F97194;532.
+(rerunfilecheck)             Checksum: A93B80F97C07A67ECD868EADD7C907C8;594.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 604.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 621.
  ) 
 Here is how much of TeX's memory you used:
- 18597 strings out of 493304
- 336773 string characters out of 6139871
- 429264 words of memory out of 5000000
- 21483 multiletter control sequences out of 15000+600000
+ 18602 strings out of 493304
+ 336828 string characters out of 6139871
+ 429448 words of memory out of 5000000
+ 21487 multiletter control sequences out of 15000+600000
  13914 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  53i,14n,92p,435b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1424,10 +1440,10 @@ sfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on presentacionTesis.pdf (45 pages, 755757 bytes).
+Output written on presentacionTesis.pdf (45 pages, 756004 bytes).
 PDF statistics:
- 1373 PDF objects out of 1440 (max. 8388607)
- 1272 compressed objects within 13 object streams
- 122 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1378 PDF objects out of 1440 (max. 8388607)
+ 1277 compressed objects within 13 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

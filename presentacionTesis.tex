@@ -6,7 +6,23 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \title{Clasificación de Series de Tiempo Astronómicas}
-\author{Muriel Pérez \inst{1} \and Adolfo Quiroz \inst{1}  \and Alejandro García\inst{2} }
+\author{Directores: \\ Adolfo J. Quiroz S. \inst{1} \\ Jose A. García V.\inst{2} \\[3mm] Estudiante: \\Muriel F. Pérez O. \inst{1}}
+%\author{Muriel Pérez \inst{1} \and Adolfo Quiroz \inst{1}  \and Alejandro García\inst{2} }
+% \author{
+% \begin{minipage}
+% \begin{flushleft}
+% Autor:\\
+% Muriel F. Pérez O. \\
+% 201011755
+% \end{flushleft}
+% \begin{flushright} \large
+% \emph{Asesores:} \\
+% Adolfo J. Quiroz S. \\
+% Jose A. García V.
+% \end{flushright}
+% \end{minipage}
+% }
+
 \institute[shortinst]{\inst{1} Universidad de los Andes, Departamento de Matemáticas \and%
 \inst{2} Universidad de los Andes, Departamento de Física}
 \begin{document}
@@ -28,7 +44,7 @@
   \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./img/telescopio.jpg}
-    \caption{Telescopio de 2,2m utilizado por el \textit{Optical Gravitational Lensing Experiment} (OGLE) localizado en Las Campanas, Chile. }
+    \caption{Telescopio de 2,2 m utilizado por el \textit{Optical Gravitational Lensing Experiment} (OGLE) localizado en Las Campanas, Chile. }
   \end{figure}
 \end{frame}
 
@@ -62,20 +78,20 @@
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
-    \caption{Catalogo de Estrellas Variables OGLE-III}
+    \caption{Tomado del catálogo de Estrellas Variables OGLE-III}
   \end{figure}
 \end{frame}
 
 
 \begin{frame}
   \frametitle{Curvas de luz}
-  Con avances en instrumenación hay disponibles gran cantidad de curvas de luz. Existen proyectos como:
+  Con avances en instrumentación hay disponibles gran cantidad de curvas de luz. Existen proyectos como:
   \begin{itemize}
-  \item Kepler Mission, NASA;
-  \item VISTA Variables in the Via Lactea Survey (VVV), ESO;
-  \item Panoramic Survey Telescope \& Rapid Response System (PANSTARRS), Universidad de Hawaii;
+  \item \textit{Kepler Mission}, NASA;
+  \item \textit{VISTA Variables in the Via Lactea Survey} (VVV), ESO;
+  \item \textit{Panoramic Survey Telescope \& Rapid Response System} (PANSTARRS), Universidad de Hawaii;
   \end{itemize}
-  que obtendrán entre resultados del orden de $10^9$ curvas de luz. Es necesario un sistema de clasificación automática.
+  que obtendrán entre sus resultados del orden de $10^9$ curvas de luz. Es necesario un sistema de clasificación automática.
 \end{frame}
 
 \begin{frame}
@@ -138,7 +154,7 @@
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
-    \caption{Catalogo de Estrellas Variables OGLE-III}
+    \caption{Tomado del catálogo de Estrellas Variables OGLE-III}
   \end{figure}
 \end{frame}
 
@@ -159,7 +175,7 @@
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     % (or a blank line to force the subfigure onto a new line)
-    \caption{Catalogo de Estrellas Variables OGLE-III}
+    \caption{Tomado del catálogo de Estrellas Variables OGLE-III}
   \end{figure}
 \end{frame}
 
@@ -201,7 +217,7 @@
 
 \begin{frame}
   \frametitle{Características}
-  Debido a que en algunas curvas existen puntos atípicos, es necesario utilizar medidas robustas. Estas medidas están típicamente basadas en cuantiles de la distribución de las magniudes. 
+  Debido a que en algunas curvas existen puntos atípicos, es necesario utilizar medidas robustas. Estas medidas están típicamente basadas en cuantiles de la distribución de las magnitudes. 
   \begin{figure}
     \centering
     \includegraphics[width=0.6\textwidth]{./img/curvaRara.pdf}
@@ -215,7 +231,7 @@
 El problema: Encontrar una función $g:\mathbb{R}^n\to J  $ que se equivoque lo menos posible.
 \begin{itemize}
   \item Suponemos que hay una medida de probabilidad $P$ sobre $\mathbb{R}^n\times J$ tal que $P(\vec{x}, j)$ es la probabilidad de observar el vector $\vec{x}$ con la etiqueta $j$.
-  \item La probabilidad de que nuestro clasificador $g$ se equivoque es $P(g(\vec{x}) \neq j)$ que queremos minimizar.
+  \item La probabilidad de que nuestro clasificador $g$ se equivoque es $P(g(\vec{x}) \neq j)$. La queremos minimizar.
   \end{itemize}
 \end{frame}
 
@@ -380,7 +396,7 @@ A un punto a clasificar se la asigna la clase a la cual pertenece la mayoría en
 
 \begin{frame}
 \frametitle{Árboles de Clasificación}
-Arbol de clasificación construido con todos los datos y todas las variables. Solo se utilizan 5 de las 17 variables originales y el estimado del error por resubstitución es 21\%
+Arbol de clasificación construido con todos los datos y todas las variables. Solo se utilizan 5 de las 17 variables originales y el estimado del error por resustitución es 21\%
 \begin{figure}
   \centering
   \includegraphics[width = 0.8\textwidth]{./img/arbolTotal.pdf}
@@ -451,7 +467,7 @@ Arbol de clasificación construido con todos los datos y todas las variables. So
 
 
 \begin{frame}
-\frametitle{Máquinas de Soporte Vectorial (SVM)}
+\frametitle{Máquinas de Soporte Vectorial (MSV)}
 Consideremos un problema de dos clases, es decir, $J=\{-1,1\}$. Queremos una regla de decisión 
 \begin{equation}
 g(\vec{x}) = sign(\langle \vec{w}, \vec{x}\rangle + b)
@@ -470,7 +486,7 @@ En el caso en que los datos sean linealmente separables, podemos encontrar el pl
 
 
 \begin{frame}
-\frametitle{Máquinas de Soporte Vectorial (SVM)}
+\frametitle{Máquinas de Soporte Vectorial (MSV)}
 Si los datos no son linealmente separables, podemos introducir variables de holgura $\xi_i$ y resolver
 \begin{equation*}
   \begin{aligned}
@@ -577,12 +593,13 @@ Podemos utilizar diferentes métodos para clasificar diferentes clases. Mostramo
   \end{figure}
 \end{frame}
 
+\subsection{Conclusiones}
 \begin{frame}
   \frametitle{Conclusiones}
   \begin{itemize}
   \item Es posible utilizar variables descriptivas de la densidad de magnitudes para clasificar curvas de luz.
   \item Este tipo de clasificadores puede ser utilizado como primera aproximación a una base de datos nueva. Así, se puede reducir el tiempo humano empleado al clasificar curvas de luz. 
-  \item La mejor abordar este problema de clasificación es utilizar una combinación de clasificadores.
+  \item La mejor forma de abordar este problema de clasificación es utilizar una combinación de clasificadores.
   \end{itemize}
 \end{frame}
 
